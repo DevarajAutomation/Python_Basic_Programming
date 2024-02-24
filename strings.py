@@ -6,4 +6,4 @@ my_str= 'Python'
 for s in my_str:
     print(s)
 
-print(my_str)
+
