@@ -1,3 +1,30 @@
 user = input('Enter your name: ')
 
 print(f"Hello {user}")
+
+number = int(input('Enter any number:'))
+print(f" You number is {number}")
+
+""" Write a program to print number is even or odd"""
+
+if number % 2 ==0:
+    print(f"You have entered the even number ")
+else:
+    print(f"You have entered the odd number ")
+
+
+""" Write a program which helps the customer to find the rental car"""
+
+available_cars=['Tata','Maruti','Mahindra','BMW']
+
+user_query=str(input('Please! help me with your choice of car: '))
+
+print('Allow me a few minutes to checkin the parking lot')
+
+#This condition is check the cars in available pool
+if user_query in available_cars:
+    
+    print(f"The car  your looking for is available ")
+
+else:
+    print(f"The car  your looking for is unavailable ")
