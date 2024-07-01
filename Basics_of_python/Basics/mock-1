@@ -1,0 +1,25 @@
+# my_fruits=["apple",'orange','grape','papaya','lemon']
+# print(len(my_fruits))
+# print(my_fruits[0])
+# print(my_fruits[-1])
+# low=0
+# high=len(my_fruits)
+
+# for i in range(len(my_fruits)):
+# 
+companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle' , 'Amazon']
+
+print(companies[0:3])
+print(companies[-3:])
+
+# companies.append('NetApp')
+
+# companies.insert(2,'NVidea')
+
+# print(companies.count('Apple'))
+# #companies.sort(reverse=True)
+# companies.reverse()
+# print(companies)
+# # vendors=['Infobeans','Mindteck']
+
+# # print(companies + vendors)
