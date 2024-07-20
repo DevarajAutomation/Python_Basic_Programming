@@ -14,7 +14,7 @@ def minimum_swaps(arr):
         else:
             i+=1
 
-    return arr
+    return count
 
 arr=[7, 1, 3, 2, 4, 5, 6]
 

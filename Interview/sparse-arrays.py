@@ -4,7 +4,7 @@
 def sparse_arrays(inpu, quer):
     results = []
     for i in range(len(quer)):
-        if quer[i] in s:
+        if quer[i] in inpu:
             results.append(inpu.count(quer[i]))
         else:
             results.insert(i,0)

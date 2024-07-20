@@ -2,20 +2,18 @@ def armstrong(n):
 
     s=n
     b=len(str(n))
+    summ=0
 
-    sum=0
-
-    while n !=0:
+    while n!=0:
         r=n%10
-        sum=sum+(r**b)
+        summ=summ+(r**b)
         n=n//10
 
-    if sum==s:
-        print(True)
+    if summ==s:
+        return  True
     else:
-        print(False)
+        return False
 
-n=153
-x = 1253
-armstrong(n)
-armstrong(x)
+n=154
+
+print(armstrong(n))

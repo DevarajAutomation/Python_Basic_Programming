@@ -4,6 +4,7 @@ def search_insert(arr,target):
     r=len(arr)-1
 
     while l <= r:
+
         mid=(l+r)//2
 
         if target > arr[mid]:

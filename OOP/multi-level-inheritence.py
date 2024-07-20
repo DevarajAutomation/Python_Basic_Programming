@@ -15,12 +15,11 @@ class C(A,B):
         A.__init__(self,'Ravi')
         B.__init__(self,22 )
         print(f"This is {self.name}")
+class D(B,C):
+    print('Hello')
 
 
+obj1=D()
 
-
-obj1=C()
-obj1.name='Ravi'
-obj1.age=22
-print(obj1.name)
+print(obj1.age)
 

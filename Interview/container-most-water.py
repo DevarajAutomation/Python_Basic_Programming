@@ -1,19 +1,16 @@
 def container_most_water(heights):
-
     l=0
     r=len(heights)-1
-    maxarea=0
+    max_area=0
 
     while l < r:
-        area = (r-l) * min(heights[l],heights[r])
-
-        maxarea = max(maxarea,area)
-
+        area=(r-l) * min(heights[r],heights[l])
+        max_area=max(max_area,area)
         if heights[l] < heights[r]:
-            l +=1
+            l+=1
         else:
             r-=1
-    return maxarea
+    return max_area
 
 
 height = [1,8,6,2,5,4,8,3,7]
