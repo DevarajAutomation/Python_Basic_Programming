@@ -12,5 +12,5 @@ def maximum_product_sub_array(arr):
 
     return overall_max
 
-ar=[-1, -3, -10, 0, 60]
+ar=[-1, -3, -10, 0,90,2]
 print(maximum_product_sub_array(ar))
