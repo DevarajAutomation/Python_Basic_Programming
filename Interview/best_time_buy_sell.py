@@ -1,16 +1,19 @@
 """https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"""
 
+
 def best_to_by_sell_stock(prices):
-   buy=prices[0]
-   profit=0
-   for sell in prices[1:]:
-       if sell > buy:
-           profit=max(profit,sell-buy)
-       else:
-           buy=sell
+    profit = 0
+    buy = prices[0]
 
-   return profit
+    for sell in prices[1:]:
+        if sell > buy:
+            profit = max(profit, sell - buy)
+        else:
+            buy=sell
 
-prices = [7,1,5,3,6,4]
+    return profit
+
+
+prices = [7, 1, 5, 3, 6, 4]
 
 print(best_to_by_sell_stock(prices))
